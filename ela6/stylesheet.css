@@ -4,7 +4,7 @@
 body {
     background-color:#636363;
     text-align:justify;
-    margin:0px 200px 0px 200px;
+    margin:0px 10px 0px 10px;
     
     
     
@@ -13,7 +13,7 @@ h1 {
     background-color:#00ced1;
     color:#333333;
     font-size:55px;
-    margin:0px 150px 0 150px;
+    margin:0px 10px 0 10px;
     padding:10px;
     text-align:center;
     font-family:'princess sofia';
@@ -27,7 +27,7 @@ h1 {
 h2 {
     background-color:#c0ff3e;
     color:#333333;
-    margin:30px 220px 5px 150px;
+    margin:30px 10px 5px 10px;
     padding:5px 15px 5px 15px;
     font-family:"princess sofia";
     font-size:25px;
@@ -41,7 +41,7 @@ h2 {
 p {
     background-color:white;
     color:#333333;
-    margin: 0px 150px 0px 220px;
+    margin: 0px 10px 0px 10px;
     padding:10px;
     font-family:"neuton";
     font-size:large;
