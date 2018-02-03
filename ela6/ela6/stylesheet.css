@@ -1,14 +1,12 @@
 
 
-@import url('https://fonts.googleapis.com/css?family=Neuton');
-
-@import url('https://fonts.googleapis.com/css?family=Princess+Sofia');
-
 
 body {
     background-color:#636363;
     text-align:justify;
     margin:0px 200px 0px 200px;
+    
+    
     
 }
 h1 {
