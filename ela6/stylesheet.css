@@ -52,6 +52,19 @@ p {
     border-radius:15px;
 
         }
+ol{
+    background-color:white;
+    color:#333333;
+    margin: 0px 10px 0px 10px;
+    padding:10px;
+    font-family:"neuton";
+    font-size:large;
+    font-weight:bold;
+    border-width:6px;
+    border-color:#333333;
+    border-style:solid;
+    border-radius:15px;}
+
 ul{
     background-color:white;
     color:#333333;
