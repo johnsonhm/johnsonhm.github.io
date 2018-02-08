@@ -52,10 +52,12 @@ p {
     border-radius:15px;
 
         }
+ol {margin-left:10px;}
+
 li {
     background-color:white;
     color:#333333;
-    margin: 0px 20px 0px 10px;
+    margin: 0px 10px 0px 10px;
     padding:10px;
     font-family:"neuton";
     font-size:large;
