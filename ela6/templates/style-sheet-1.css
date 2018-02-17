@@ -7,7 +7,6 @@ body {
     padding:0;
     text-align:justify;
     }
-}
 nav {
     font-family:'neuton';
     font-size:large;
@@ -34,7 +33,7 @@ nav {
 h1 {
     background-color:#333333;
     background-image:none;
-    color:##d9d0bf;
+    color:#d9d0bf;
     font-family:'neuton';
     font-size:5em;
     font-weight:bolder;
@@ -117,7 +116,7 @@ p {
     padding:1em;
     list-style-type:none;
     }
-#horizontalnav
+.horizontalnav
     {display:inline;}
 #subnavul{
     background-color:#d9d0bf;
