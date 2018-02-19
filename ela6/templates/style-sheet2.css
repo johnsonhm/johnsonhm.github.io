@@ -1,0 +1,88 @@
+
+body {
+    background-color:#333333;
+    background-image:none;
+    color:white;
+    margin:0;
+    padding:0;}
+#wrapper {
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;}
+header {
+    background-color:#f9de8a;
+    color:#CC5C00;
+    font-family: 'neuton';
+    margin:0;}
+    h1 {
+    font-size:5em;
+    font-weight:bolder;
+    letter-spacing:.2em;
+    margin:0;
+    padding: 1%;
+    text-align:center;}
+nav {
+    font-family:'neuton';
+    font-size:large;
+    margin:0;
+    color:#cc5c00;}
+    #mainnav {
+        background-color:white;
+        color:#cc5c00;
+        text-align:center;
+        margin:0;
+        font-weight:bold; }
+    #mainnavul{
+        background-color:white;
+        color:#cc5c00;      
+        padding:.5em;
+        list-style-type:none;
+        margin:0;}
+    .mainnavli {
+        background-color:white;
+        color:#cc5c00;
+        margin:0;}
+    a:link {color:#cc5c00;}
+    a:hover {background-color:#f9de8a}
+    #subnav {
+        background-color:#fd8b17;
+        color:white;
+        margin:0;}
+main {
+    margin:0;
+    background-color:#fd8b17;
+    color:white;
+    } 
+    h2 {
+        font-family:'neuton';
+        font-size:3em;
+        letter-spacing:.2em;
+        margin:0;
+        padding:.3em;
+        text-align:center;
+        background-color:#f9de8a;
+        color:#cc5c00;
+        }
+    p {
+        font-family:'neuton';
+        font-size:1.35em;
+        font-weight:bold;
+        margin: 1em 1em 0 33%;
+        padding:1%;
+        background-color:white;
+        color:#cc5c00;
+        }
+    
+footer {
+    background-color:#cc5c00;
+    color:white;
+    font-family:'neuton';
+    font-size:normal;
+    margin:0;
+    padding:1em;
+    text-align:center;} 
+
+
+
+
+
