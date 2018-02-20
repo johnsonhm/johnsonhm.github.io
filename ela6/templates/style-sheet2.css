@@ -31,7 +31,8 @@ nav {
         color:#cc5c00;
         text-align:center;
         margin:0;
-        font-weight:bold; }
+        font-weight:bold;
+        float:left}
     #mainnavul{
         background-color:white;
         color:#cc5c00;      
