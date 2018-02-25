@@ -76,8 +76,8 @@ main {
         font-size:3em;
         letter-spacing:.2em;
         margin:0;
-        padding:.3em;
-        text-align:center;
+        padding:.3em .3em .3em 33%;
+        text-align:left;
         background-color:#afff99;
         color:#235516;
         }
