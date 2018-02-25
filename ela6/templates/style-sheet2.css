@@ -10,8 +10,8 @@ body {
     margin-left:auto;
     margin-right:auto;}
 header {
-    background-color:#f9de8a;
-    color:#CC5C00;
+    background-color:#afff99;
+    color:#235516;
     font-family: 'neuton';
     margin:0;}
     h1 {
@@ -20,38 +20,56 @@ header {
     letter-spacing:.2em;
     margin:0;
     padding: 1%;
-    text-align:center;}
+    text-align:center;
+    }
 nav {
     font-family:'neuton';
     font-size:large;
     margin:0;
-    color:#cc5c00;}
+    color:#235516;}
     #mainnav {
         background-color:white;
-        color:#cc5c00;
+        color:#235516;
         text-align:center;
         margin:0;
-        font-weight:bold;}
+        font-weight:bold; }
     #mainnavul{
         background-color:white;
-        color:#cc5c00;      
+        color:#235516;      
         padding:.5em;
         list-style-type:none;
         margin:0;}
     .mainnavli {
+        display:inline;
         background-color:white;
-        color:#cc5c00;
+        color:#235516;
         margin:0;}
-    a:link {color:#cc5c00;}
-    a:hover {background-color:#f9de8a}
+    a {
+        text-decoration:none;
+        padding:.5em;    }
+    a:link {color:#235516;}
+    a:visited {color:#235516;}
     #subnav {
-        background-color:#fd8b17;
+        background-color:#6dc717;
         color:white;
         margin:0;}
+    #subnavul{
+        list-style-type:none;
+        background-color:#6dc717;
+        color:white;
+        margin:0;}
+    .subnavli {
+        background-color:#6dc717;
+        display:inline-block;
+        margin:0;
+        padding:0;
+        text-align: center;
+        font-family:'neuton';
+        color:white;}
 main {
     margin:0;
-    background-color:#fd8b17;
-    color:white;
+    background-color:#6dc717;
+    color:#235516;
     } 
     h2 {
         font-family:'neuton';
@@ -60,8 +78,8 @@ main {
         margin:0;
         padding:.3em;
         text-align:center;
-        background-color:#f9de8a;
-        color:#cc5c00;
+        background-color:#afff99;
+        color:#235516;
         }
     p {
         font-family:'neuton';
@@ -70,12 +88,22 @@ main {
         margin: 1em 1em 0 33%;
         padding:1%;
         background-color:white;
-        color:#cc5c00;
+        color:#235516;
         }
-    
+    figcaption {
+        text-align:center;
+        font-family:'neuton';
+        color:#235516;}
+    figure {
+        margin:0;
+        margin:1.5em .5em .5em .5em;   }
+#clearleft {
+    overflow:auto;
+    width:100%;
+}
 footer {
-    background-color:#cc5c00;
-    color:white;
+    background-color:#6dc717;
+    color:#235516;
     font-family:'neuton';
     font-size:normal;
     margin:0;
