@@ -15,7 +15,7 @@ header {
     font-family: 'neuton';
     margin:0;}
     h1 {
-    font-size:4em;
+    font-size:10px;
     font-weight:bolder;
     letter-spacing:.2em;
     margin:0;
@@ -24,7 +24,7 @@ header {
     }
 nav {
     font-family:'neuton';
-    font-size:1em;
+    font-size:4px;
     margin:0;
     color:#235516;}
     #mainnav {
