@@ -1,0 +1,135 @@
+
+body {
+    background-color:#333333;
+    background-image:none;
+    color:white;
+    margin:0;
+    padding:0;}
+#wrapper {
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;}
+header {
+    background-color:#afff99;
+    color:#235516;
+    font-family: 'neuton';
+    margin:0;}
+    h1 {
+    font-size:5em;
+    font-weight:bolder;
+    letter-spacing:.2em;
+    margin:0;
+    padding: 1%;
+    text-align:center;
+    }
+nav {
+    font-family:'neuton';
+    font-size:large;
+    margin:0;
+    color:#235516;}
+    #mainnav {
+        background-color:white;
+        color:#235516;
+        text-align:center;
+        margin:0;
+        font-weight:bold; }
+    #mainnavul{
+        background-color:white;
+        color:#235516;      
+        padding:.5em;
+        list-style-type:none;
+        margin:0;}
+    .mainnavli {
+        display:inline;
+        background-color:white;
+        color:#235516;
+        margin:0;}
+    a {
+        text-decoration:none;
+        padding:.5em;    }
+    a:link {color:#235516;}
+    a:visited {color:#235516;}
+    #subnav {
+        background-color:#6dc717;
+        color:white;
+        margin:0;}
+    .subnavul{
+        list-style-type:none;
+        background-color:#6dc717;
+        color:white;
+        margin:0;
+    }
+    .subnavli {
+        background-color:#6dc717;
+        display:inline-block;
+        margin:0;
+        padding:0;
+        text-align: center;
+        font-family:'neuton';
+        color:white;
+        }
+ol {
+    font-family:'neuton';
+    font-size:large;
+    font-weight:bold;
+    margin: 1em 1em 0 33%;
+    padding:1%;
+    background-color:white;
+    color:#333333; 
+}
+li {font-family:'neuton';
+    font-size:large;
+    font-weight:bold;
+    margin: 0 0 0 1em;
+    padding:.5em;
+    background-color:white;
+    color:#333333;
+    list-style-type:decimal;}
+main {
+    margin:0;
+    background-color:#6dc717;
+    color:#235516;
+    } 
+    h2 {
+        font-family:'neuton';
+        font-size:3em;
+        letter-spacing:.2em;
+        margin:0;
+        padding:.3em .3em .3em 33%;
+        text-align:left;
+        background-color:#afff99;
+        color:#235516;
+        }
+    p {
+        font-family:'neuton';
+        font-size:1.35em;
+        font-weight:bold;
+        margin: 1em 1em 0 33%;
+        padding:1%;
+        background-color:white;
+        color:#333333;
+        }
+    figcaption {
+        text-align:center;
+        font-family:'neuton';
+        color:#235516;}
+    figure {
+        margin:0;
+        margin:1.5em .5em .5em .5em;  }
+#clearleft {
+    overflow:auto;
+    width:100%;
+}
+footer {
+    background-color:#6dc717;
+    color:#235516;
+    font-family:'neuton';
+    font-size:normal;
+    margin:0;
+    padding:1em;
+    text-align:center;} 
+
+
+
+
+
