@@ -1,0 +1,27 @@
+body {
+    background-color:white;
+    color:#242424;
+    font-family:helvetica;
+    margin:0% 10% 1% 10%;
+}
+h1{
+    text-align:center;
+    background-color:#7dd0b6;
+    padding:2%;
+    margin:0;}
+h2 {
+    background-color:#9dc6d8;
+    margin:2% 0 0 0;
+    padding:1%;
+    }
+p {
+    background-color:white;
+    margin:0;
+    padding:1%;
+    }
+h3{
+    color:#1d4e89;
+}
+a {
+    color:#1d4e89;
+}
