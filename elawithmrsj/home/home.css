@@ -3,7 +3,7 @@ a:link {color:#1d4e89;}
 a:hover {color:#1d4e89; text-decoration:underline;}
 a:visited {color:#242424;}
 body{
-    font-family:'Cabin Sketch';}
+    font-family:'archivo black';}
 .clear {clear:both;}
 .currentpage {
     background-color:#7dd0b6;
@@ -40,27 +40,30 @@ body{
     overflow:auto;}
 figcaption {
     text-align:center;
-    font-family:'nanum pen script';
+    font-family:'reenie beanie';
     font-size:1.5em;
+    font-weight:bold;
     color:#1d4e89;}
 figure {
     margin:0;
     margin:1.5em .5em .5em .5em; }
 footer {
     text-align:center;
-    margin:5% 0 0 0;}
+    margin:5% 0 0 0;
+    font-family:'quicksand';
+    font-size:1.5em;}
 footer figure {display:inline;}
 h1 {
     text-align:center;
     font-size:5em;
     margin:0;
-    font-family:'Londrina Sketch';
+    font-family:'barrio';
     color: #1d4e89;}
 h2 {
     text-align:center;
     font-size:4em;
     margin:0;
-    font-family: 'londrina sketch';
+    font-family: 'barrio';
     color:#1d4e89;}
 main {text-align:center;}
 nav {
@@ -109,4 +112,5 @@ nav {
         color:#242424;
         text-decoration:none;}
 p { font-size:2em;
-    font-family: 'loved by the king';}
+    font-family: 'quicksand';
+    padding:2%;}
