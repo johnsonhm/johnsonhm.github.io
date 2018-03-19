@@ -14,7 +14,8 @@ body{
     text-align:center;
     overflow:auto;
     clear:both;
-    margin:5% 0 0 0;}
+    margin:5% 0 0 0;
+    }
 .sectionleft {
     width:40%; 
     height:100%;
@@ -65,7 +66,8 @@ h2 {
     margin:0;
     font-family: 'barrio';
     color:#1d4e89;}
-main {text-align:center;}
+main {text-align:center;
+   }
 nav {
     font-family:'barrio';
     font-size:1.5em;}
