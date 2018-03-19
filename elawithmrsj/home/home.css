@@ -3,7 +3,7 @@ a:link {color:#1d4e89;}
 a:hover {color:#1d4e89; text-decoration:underline;}
 a:visited {color:#242424;}
 body{
-    font-family:'archivo black';}
+    font-family:'quicksand';}
 .clear {clear:both;}
 .currentpage {
     background-color:#7dd0b6;
@@ -108,7 +108,7 @@ nav {
         margin:0;
         padding:0;
         text-align: center;
-        font-family:'caveat brush';
+        font-family:'reenie beanie';
         color:#242424;
         text-decoration:none;}
 p { font-size:2em;
