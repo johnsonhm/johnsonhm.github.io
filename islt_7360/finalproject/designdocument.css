@@ -17,11 +17,54 @@ h2 {
 p {
     background-color:white;
     margin:0;
-    padding:1%;
+    padding:1% 0 0 3%;
     }
 h3{
     color:#1d4e89;
+    margin: 2% 0 0 3%;
 }
 a {
     color:#1d4e89;
 }
+
+footer{
+    margin: 2% 0 0 0;
+    text-align:center;
+    padding:2%;
+}
+nav {
+    text-align:center;
+    color:#242424;
+    font-weight:bold;
+    margin:2% 0 0 0;
+}
+table {
+    margin:2% 20% 0 20%;
+    width:60%;
+    border:3px solid #7dd0b6;
+    border-spacing:0;
+}
+td, th {border:3px solid #7dd0b6;
+    padding:.5em;}
+caption {
+    color:#242424;
+    margin: 2% 0 2% 0;
+    font-weight:bolder;
+    font-size:x-large;
+}
+#navigation ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+#navigation li:not(:first-child):before {
+    content: " | ";
+}
+
