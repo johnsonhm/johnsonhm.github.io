@@ -91,6 +91,12 @@ h2 {
     margin:7% 0 0 0;
     font-family: 'barrio';
     color:#1d4e89;}
+#lessspaceh2 {
+    text-align:center;
+    font-size:3em;
+    margin:0;
+    font-family: 'barrio';
+    color:#1d4e89;}
 h3 {
     text-align:center;
     font-size:3em;
