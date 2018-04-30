@@ -72,22 +72,21 @@ td, th, tr {
 figcaption {
     text-align:center;
     font-family:'reenie beanie';
-    font-size:1.5em;
+    font-size:1.25em;
     font-weight:bold;
     color:#1d4e89;}
 figure {
-    margin:0;
-    margin:1.5em .5em .5em .5em; }
+    margin:.5em .5em .5em .5em; }
 footer {
     text-align:center;
     margin:5% 0 0 0;
     font-family:'quicksand';
-    font-size:1em;}
+    font-size:1.25em;}
 footer figure {display:inline;}
 h1 {
     text-align:center;
-    font-size:4em;
-    margin:0 20% 0 20%;
+    font-size:5.5em;
+    margin:.5em 20% 0 20%;
     width:60%;
     font-family:'barrio';
     color: #1d4e89;}
@@ -96,7 +95,8 @@ h2 {
     font-size:3em;
     margin:7% 0 0 0;
     font-family: 'barrio';
-    color:#1d4e89;}
+    color:#1d4e89;
+    width:100%;}
 #lessspaceh2 {
     text-align:center;
     font-size:3em;
@@ -106,19 +106,19 @@ h2 {
 h3 {
     text-align:center;
     font-size:3em;
-    margin:2% 0 0 0;
+    margin:1em 0 0 0;
     font-family:'barrio';
     color:#1d4e89;}
 main {text-align:center;
    }
 nav {
     font-family:'barrio';
-    font-size:1em;}
+    font-size:1.5em;}
     #mainnav {
         background-color:white;
         color:#242424;
         text-align:center;
-        margin:0 10% 0 10%;
+        margin:1em 10% 0 10%;
         width:80%;}
     #mainnavul{
         background-color:white;      
@@ -138,7 +138,7 @@ nav {
         background-color:white;
         color:#242424;
         text-align:center;
-        margin:5% 10% 5% 10%;
+        margin:1em 10% 5% 10%;
         width:80%;
         padding:0;}
     .subnavul{
@@ -147,7 +147,7 @@ nav {
         color:#242424;
         margin:0;
         padding:0;
-        text-decoration:none; }
+        text-decoration:none;}
     .subnavli {
         background-color:white;
         display:inline-block;
@@ -157,6 +157,42 @@ nav {
         font-family:'reenie beanie';
         color:#242424;
         text-decoration:none;}
+        .subnavli2 {
+            background-color:white;
+            display:inline-block;
+            margin:0;
+            padding:0;
+            text-align: center;
+            font-family:'reenie beanie';
+            color:#242424;
+            text-decoration:none;
+        font-size:1.5em;
+   }
+   #newsnavul {
+    background-color:white;
+    color:#242424;
+    text-align:center;
+    margin:1em 10% 5% 10%;
+    width:100%;
+    padding:0;
+    font-family:'quicksand';}
+.newsnavul{
+    list-style-type:none;
+    background-color:white;
+    color:#242424;
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    font-family:'quicksand';}
+.newsnavli {
+    background-color:white;
+    margin:0;
+    padding:.5em;
+    text-align: center;
+    font-family:'quicksand';
+    color:#242424;
+    text-decoration:none;
+    font-size:1.5em;}
 p { font-size:1.5em;
     font-family: 'quicksand';
     padding:2%;
