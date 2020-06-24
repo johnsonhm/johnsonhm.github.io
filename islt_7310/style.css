@@ -1,13 +1,53 @@
+*{font-family:Arial, Helvitica, sans-serif;}
+body{
+    font-size:100%;}
+header {
+    padding-bottom:10px;
+    border-bottom: 2px solid #152E56;}
 h1{
-    color:#003399;}
+    color:#152E56;
+    text-shadow:2px 2px 5px #A7B6B5;
+    text-align:center;
+    font-size:300%;
+    font-family:Arial, Helvitica, sans-serif;
+    font-variant:small-caps;}
+h2{
+    color:#152E56;
+    text-shadow:2px 2px 5px #A7B6B5;
+    font-size:200%;
+    font-variant:small-caps;}
+h3{
+    color:#123D5F;
+    text-shadow:1px 1px 3px #A7B6B5;
+    font-size:150%;}
+p{
+    color:black;
+    font-size:100%;}
+blockquote{
+    color:#476678;
+    font-size:100%;
+    font-style:italic;}
+.floatleft{
+    float:left;
+    position:relative;
+    margin:0 30px 0 0;}
+.floatright{
+    float:right;
+    position:relative;}
+.clearleft{
+    clear:left;}
+#medlist{
+    color:#476678;}
+#bslist{
+    color:black;}
 footer{
     font-size:80%;
     text-align:center;
     font-style:italic;}
 a:link, a:visited, a:active{
-    color:#003399;
+    color:#476678;
     text-decoration:none;
     font-weight:bold;}
 a:hover, a:focus{
-    color:#00ffcc;
+    color:#152E56;
     text-decoration:underline;}
