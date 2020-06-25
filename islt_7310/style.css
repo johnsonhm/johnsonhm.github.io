@@ -1,21 +1,25 @@
-*{font-family:Arial, Helvitica, sans-serif;}
+*{font-family:Helvetica, sans-serif;}
 body{
-    font-size:100%;}
-header {
-    padding-bottom:10px;
-    border-bottom: 2px solid #152E56;}
+    font-size:100%;
+    margin:0px;
+    background-color:#A7B6B5;}
+main{
+    padding:0px 40px 5px 40px;
+    margin:0px;}
 h1{
-    color:#152E56;
+    color:white;
     text-shadow:2px 2px 5px #A7B6B5;
     text-align:center;
     font-size:300%;
-    font-family:Arial, Helvitica, sans-serif;
-    font-variant:small-caps;}
+    font-family:Helvetica, sans-serif;
+    font-variant:small-caps;
+    background-color:#152E56;}
 h2{
     color:#152E56;
     text-shadow:2px 2px 5px #A7B6B5;
     font-size:200%;
-    font-variant:small-caps;}
+    font-variant:small-caps;
+    margin:0 0 10px 0;}
 h3{
     color:#123D5F;
     text-shadow:1px 1px 3px #A7B6B5;
@@ -23,14 +27,22 @@ h3{
 p{
     color:black;
     font-size:100%;}
+div{
+    background-color:white;
+    border:10px solid #152E56;
+    margin:0 30px 30px 30px;
+    padding:40px 60px 40px 60px;}
 blockquote{
     color:#476678;
     font-size:100%;
-    font-style:italic;}
+    font-style:italic;
+    margin:10px 0 0 0;}
 .floatleft{
     float:left;
-    position:relative;
-    margin:0 30px 0 0;}
+    position:relative;}
+img{
+    margin:0px 30px 30px 0;
+    padding:5px;}
 .clearleft{
     clear:left;}
 #medlist{
@@ -40,9 +52,13 @@ blockquote{
 footer{
     font-size:80%;
     text-align:center;
-    font-style:italic;}
+    font-style:italic;
+    background-color:#A7B6B5;
+    padding:0 0 30px 0;
+/*Remove this border for final project.*/
+    border-top:10px solid black;}
 a:link, a:visited, a:active{
-    color:#476678;
+    color:#152E56;
     text-decoration:none;
     font-weight:bold;}
 a:hover, a:focus{
