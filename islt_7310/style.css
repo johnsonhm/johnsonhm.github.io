@@ -52,15 +52,14 @@ div{
     background-color:white;
     border:10px solid #152E56;
     padding:10px;
-    margin:0px 10px 10px 10px;}
+    margin:0px 10px 10px 10px;
+    height:auto;}
 #education{
     width:430px;
-    height:350px;
     float:left;
     position:relative;}
 #about{
     width:648px;
-    height:350px;
     float:left;
     position:relative;}
 #resume{
