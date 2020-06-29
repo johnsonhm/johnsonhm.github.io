@@ -18,7 +18,13 @@ main{
     position:relative;
     float:left;
     width:100%;
-    padding:0 60px 0 60px;}
+    padding:0}
+.centerdivs {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:none;
+    background-color:#A7B6B5;    }
 header{
     border-bottom:5px solid #476678;}
 h1{
@@ -49,7 +55,7 @@ div{
     background-color:white;
     border:10px solid #152E56;
     padding:10px;
-    margin:0px 10px 30px 10px;}
+    margin:0px 10px 10px 10px;}
 #education{
     width:430px;
     height:350px;
