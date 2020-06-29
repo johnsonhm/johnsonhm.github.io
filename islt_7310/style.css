@@ -20,7 +20,8 @@ main{
     width:100%;
     display:flex;
     justify-content:center;
-    align-items:center;}
+    align-items:center;
+    vertical-align:top;}
 header{
     border-bottom:5px solid #476678;}
 h1{
@@ -63,7 +64,7 @@ div{
     width:648px;
     float:left;
     position:relative;
-    margin:30px 10px 30px 10px;}
+    margin:0 10px 30px 10px;}
 #resume{
     width:1078px;
     margin:30px 10px 30px 10px;}
