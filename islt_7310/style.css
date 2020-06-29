@@ -46,7 +46,9 @@ h3{
     margin:5px;}
 p{
     color:black;
-    font-size:100%;}
+    font-size:100%;
+    margin:0px;
+    padding:5px;}
 div{
     background-color:white;
     border:10px solid #152E56;
