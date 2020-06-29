@@ -3,7 +3,7 @@ body{
     font-size:100%;
     margin:0px;
     background-color:#152E56;
-    width:90%;}
+    width:100%;}
 main{
     margin:0px;
     background-color:#A7B6B5;
@@ -41,12 +41,12 @@ div{
     padding:10px;
     margin:0 10px 30px 10px;}
 #education{
-    width:430px;
+    width:420px;
     height:350px;
     float:left;
     position:relative;}
 #about{
-    width:658px;
+    width:648px;
     height:350px;
     float:left;
     position:relative;}
