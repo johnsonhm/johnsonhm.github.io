@@ -49,22 +49,24 @@ p{
     font-size:100%;
     margin:0px;
     padding:10px;}
-div{
+.right{
     background-color:white;
     border:10px solid #152E56;
-    padding:10px;
-    margin:30px 10px 30px 10px;
-    height:auto;}
-.right{
     width:430px;
+    height:auto;
     float:left;
     position:relative;
-    margin:30px 10px 30px 10px;}
+    margin:30px 10px 30px 10px;
+    padding:10px;}
 .left{
+    background-color:white;
+    border:10px solid #152E56;
     width:648px;
+    height:auto;
     float:left;
     position:relative;
-    margin:30px 10px 30px 10px;}
+    margin:30px 10px 30px 10px;
+    padding:10px;}
 .twocolumndiv{
     background-color:white;
     border:none;
@@ -72,8 +74,12 @@ div{
     margin:0;
     column-count:2;}
 .center{
+    background-color:white;
+    border:10px solid #152E56;
     width:700px;
-    margin:30px 10px 30px 10px;}
+    height:auto;
+    margin:30px 10px 30px 10px;
+    padding:10px;}
 blockquote{
     color:#476678;
     font-size:100%;
