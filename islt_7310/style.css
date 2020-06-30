@@ -1,10 +1,10 @@
 /****************************************************************************
 Title:  Style
-Use:  To provide style rules for my website.
+Use:  To provide style rules for my portfolio website.
 Author:  Hannah Johnson
 School/Term:  University of Missouri-Columbia, Summer 2020
 Developed: June 18, 2020
-Validated:  June 18, 2020; Passed on Chrome browser.
+Validated:  June 30, 2020; Passed on Chrome browser.
 ***************************************************************************/
 *{font-family:Helvetica, sans-serif;}
 body{
@@ -53,20 +53,26 @@ div{
     background-color:white;
     border:10px solid #152E56;
     padding:10px;
-    margin:0px 10px 30px 10px;
+    margin:30px 10px 30px 10px;
     height:auto;}
-#education{
+.right{
     width:430px;
     float:left;
     position:relative;
-    margin:0px 10px 30px 10px;}
-#about{
+    margin:30px 10px 30px 10px;}
+.left{
     width:648px;
     float:left;
     position:relative;
-    margin:0 10px 30px 10px;}
-#resume{
-    width:1078px;
+    margin:30px 10px 30px 10px;}
+.twocolumndiv{
+    background-color:white;
+    border:none;
+    padding:0;
+    margin:0;
+    column-count:2;}
+.center{
+    width:700px;
     margin:30px 10px 30px 10px;}
 blockquote{
     color:#476678;
