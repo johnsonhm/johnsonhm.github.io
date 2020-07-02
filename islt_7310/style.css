@@ -13,17 +13,16 @@ body{
     background-color:#24305e;
     width:100%;
     height:auto;}
-.homemain{
-    margin:0;
-    padding:2% 15% 2% 15%;
+main{
+    margin:15px;
+    padding:30px 50px 30px 50px;
     background-color:#a8d0e6;
-    display:inline-block;
-    vertical-align:top;
-    text-align:center;}
-.resumemain{
-    margin:0;
-    padding:2% 15% 2% 15%;
-    background-color:#a8d0e6;}
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    vertical-align:top;}
 .flexcontainer{
     display:flex;
     flex-direction:row;
@@ -31,9 +30,21 @@ body{
     justify-content:center;
     align-items:center;
     vertical-align:top;}
+.flexcontainer2{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    vertical-align:top;}
 header{
-    border-bottom:5px solid #374785;
-    margin:0;}
+    margin:0;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:center;
+    align-items:center;
+    vertical-align:top;}
 h1{
     color:white;
     text-shadow:3px 3px 5px #a8d0e6;
@@ -41,10 +52,11 @@ h1{
     font-size:300%;
     font-family:'Unica One', serif;
     background-color:#24305e;
-    margin:0;
+    margin:0 60px 0 0;
     padding:5px;
     letter-spacing:5px;
-    text-transform:uppercase;}
+    text-transform:uppercase;
+    display:inline-block;}
 h2{
     color:white;
     font-size:170%;
@@ -102,9 +114,9 @@ p{
     background-color:white;
     margin:5px;
     padding:10px;
-    width:800px;
-    height:480px;
-    display:inline-block;
+    width:65%;
+    height:auto;
+    display:block;
     vertical-align:top;}
 .mediumblue{
     background-color:#374785;
@@ -131,8 +143,7 @@ footer{
     text-align:center;
     font-style:italic;
     background-color:#24305e;
-    padding:5px 0 5px 0;
-    border-top:5px solid #374785;}
+    padding:5px 0 5px 0;}
 a:link, a:active, a:visited{
     color:#a8d0e6;
     text-decoration:none;}

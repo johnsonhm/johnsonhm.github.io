@@ -7,27 +7,55 @@ Developed: July 1, 2020
 Validated:  July 1, 2020; Passed on Chrome browser.
 ***************************************************************************/
 nav {
-    background-color:#24305e;}
+    background-color:#24305e;
+    display:inline-block;
+    right:0;
+    top:0;
+    margin:15px;    }
+nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;}
 nav ul li {
     list-style-type:none;
-    margin:5px;
+    margin-top:0;
+    margin-left:5px;
+    margin-bottom:2px;
     display:inline-block;
     color:white;
-    border-bottom:5px solid white;
+    border-bottom:3px solid white;
     padding:5px 5px 5px 5px;
-    width:200px;
+    width:150px;
     text-align:center;
-    font-size:170%;
+    font-size:20px;
     font-family:'Unica One',serif;
     letter-spacing:5px;
     text-transform:uppercase;}
+nav>ul li{
+    width:150px;
+    position:relative;
+    text-align:center;
+    color:white;}
 nav a:link, a:active, a:visited {
+    text-decoration:none;
     display:block;
     color:white;
-    font-family:'Unica One', serif;}
+    font-family:'Unica One', serif;
+    background-color:#24305e;}
 nav a:hover, a:focus {
     color: #f76c6c;
-    text-decoration:none;}
+    text-decoration:none;
+    background-color:#24305e;}
 .active {
     color:#f76c6c;
-    border-bottom:5px solid #f76c6c;}
+    border-bottom:3px solid #f76c6c;
+    background-color:#24305e;}
+nav ul>li ul{
+    position:absolute;
+    margin-top:10px;
+    margin-left:0;
+    left:-10px;
+    background-color:#24305e;
+    display:none;}
+nav>ul>li:hover>ul{
+    display:block;}
