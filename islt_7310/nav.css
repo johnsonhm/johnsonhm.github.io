@@ -1,0 +1,33 @@
+/****************************************************************************
+Title:  Nav Style
+Use:  To provide style rules for my navigation.
+Author:  Hannah Johnson
+School/Term:  University of Missouri-Columbia, Summer 2020
+Developed: July 1, 2020
+Validated:  July 1, 2020; Passed on Chrome browser.
+***************************************************************************/
+nav {
+    background-color:#24305e;}
+nav ul li {
+    list-style-type:none;
+    margin:5px;
+    display:inline-block;
+    color:white;
+    border-bottom:5px solid white;
+    padding:5px 5px 5px 5px;
+    width:200px;
+    text-align:center;
+    font-size:170%;
+    font-family:'Unica One',serif;
+    letter-spacing:5px;
+    text-transform:uppercase;}
+nav a:link, a:active, a:visited {
+    display:block;
+    color:white;
+    font-family:'Unica One', serif;}
+nav a:hover, a:focus {
+    color: #f76c6c;
+    text-decoration:none;}
+.active {
+    color:#f76c6c;
+    border-bottom:5px solid #f76c6c;}
