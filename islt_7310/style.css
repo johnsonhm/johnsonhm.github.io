@@ -6,110 +6,133 @@ School/Term:  University of Missouri-Columbia, Summer 2020
 Developed: June 18, 2020
 Validated:  June 30, 2020; Passed on Chrome browser.
 ***************************************************************************/
-*{font-family:Helvetica, sans-serif;}
+*{font-family:'Crimson Text', sans-serif;}
 body{
     font-size:100%;
-    margin:0px;
-    background-color:#152E56;
-    width:100%;}
-main{
-    margin:0px;
-    background-color:#A7B6B5;
-    position:relative;
-    float:left;
+    margin:0;
+    background-color:#24305e;
     width:100%;
+    height:auto;}
+.homemain{
+    margin:0;
+    padding:2% 15% 2% 15%;
+    background-color:#a8d0e6;
+    display:inline-block;
+    vertical-align:top;
+    text-align:center;}
+.resumemain{
+    margin:0;
+    padding:2% 15% 2% 15%;
+    background-color:#a8d0e6;}
+.flexcontainer{
     display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
     justify-content:center;
     align-items:center;
     vertical-align:top;}
 header{
-    border-bottom:5px solid #476678;}
+    border-bottom:5px solid #374785;}
 h1{
     color:white;
-    text-shadow:2px 2px 5px #A7B6B5;
+    text-shadow:3px 3px 5px #a8d0e6;
     text-align:center;
     font-size:300%;
-    font-family:Helvetica, sans-serif;
-    font-variant:small-caps;
-    background-color:#152E56;
-    margin:10px;}
+    font-family:'Unica One', serif;
+    background-color:#24305e;
+    margin:0;
+    padding:5px;
+    letter-spacing:5px;
+    text-transform:uppercase;}
 h2{
-    color:#152E56;
-    text-shadow:2px 2px 5px #A7B6B5;
-    font-size:200%;
-    font-variant:small-caps;
-    margin:5px;}
+    color:white;
+    font-size:170%;
+    font-family:'Unica One',serif;
+    margin:0;
+    padding:10px 20px 0 20px;
+    text-align:left;
+    text-transform:uppercase;
+    letter-spacing:2px;}
 h3{
-    color:#123D5F;
-    text-shadow:1px 1px 3px #A7B6B5;
-    font-size:130%;
-    margin:5px;}
-p{
-    color:black;
+    color:white;
     font-size:100%;
-    margin:0px;
-    padding:10px;}
-.right{
-    background-color:white;
-    border:10px solid #152E56;
-    width:430px;
-    height:auto;
-    float:left;
-    position:relative;
-    margin:30px 10px 30px 10px;
-    padding:10px;}
-.left{
-    background-color:white;
-    border:10px solid #152E56;
-    width:648px;
-    height:auto;
-    float:left;
-    position:relative;
-    margin:30px 10px 30px 10px;
-    padding:10px;}
-.twocolumndiv{
-    background-color:white;
-    border:none;
+    margin:5px;
     padding:0;
-    margin:0;
-    column-count:2;}
-.center{
-    background-color:white;
-    border:10px solid #152E56;
-    width:700px;
-    height:auto;
-    margin:30px 10px 30px 10px;
-    padding:10px;}
-blockquote{
-    color:#476678;
+    text-align:center;}
+p{
+    color:white;
     font-size:100%;
+    margin:10px 20px 20px 20px;
+    padding:0;
+    text-align:left;
+    vertical-align:middle;}
+.darkblue{
+    background-color:#24305e;
+    margin:5px;
+    padding:10px;
+    width:180px;
+    height:180px;
+    display:inline-block;
+    vertical-align:top;}
+.darkblueul{
+    color:white;
+    margin:10px 20px 20px 20px;
+    padding:0;
+    text-align:left;}
+.pink{
+    background-color:#f76c6c;
+    margin:5px;
+    padding:10px;
+    width:180px;
+    height:180px;
+    display:inline-block;
+    vertical-align:top;}
+.white{
+    background-color:white;
+    margin:5px;
+    padding:10px;
+    width:180px;
+    height:180px;
+    display:inline-block;
+    vertical-align:top;}
+.whitelarge{
+    background-color:white;
+    margin:5px;
+    padding:10px;
+    width:800px;
+    height:480px;
+    display:inline-block;
+    vertical-align:top;}
+.mediumblue{
+    background-color:#374785;
+    margin:5px;
+    padding:10px;
+    width:180px;
+    height:180px;
+    display:inline-block;
+    vertical-align:top;}
+blockquote{
+    color:#f76c6c;
+    text-align:justify;
     font-style:italic;
-    margin:10px 0 0 0;}
-.floatleft{
-    float:left;
-    position:relative;
-    margin:10px;}
-img{
+    font-weight:bold;
+    font-size:130%;
     margin:0;
+    padding:20px;}
+img{
+    margin:5px;
     padding:0;}
-.clearleft{
-    clear:left;}
-#medlist{
-    color:#476678;}
-#bslist{
-    color:black;}
 footer{
-    clear:both;
     font-size:95%;
     color:white;
     text-align:center;
     font-style:italic;
-    background-color:#152E56;
+    background-color:#24305e;
     padding:5px 0 5px 0;
-    border-top:5px solid #476678;}
-a:link, a:visited, a:active{
-    color:#476678;
-    text-decoration:none;
-    font-weight:bold;}
+    border-top:5px solid #374785;}
+a:link, a:active, a:visited{
+    color:#a8d0e6;
+    text-decoration:none;}
 a:hover, a:focus{
-    text-decoration:underline;}
+    text-decoration:underline;
+    color:#f76c6c;}

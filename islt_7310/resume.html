@@ -15,18 +15,30 @@ Validated:  June 30, 2020; Passed on Chrome browser.
     <title>Resume</title>
     <meta name="description" content="Professional resume PDF and video for Hannah Johnson.">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 </head>
 <body>
 <header>
-    <h1>Hannah Johnson</h1>
+    <h1>Resume</h1>
 </header>
-<main>
-   <div class="center">
-        <h2 style="text-align:center">Resume</h2>
-    <p style="text-align:center">To view my most recent resume, click on <a href="docs/johnsonresume.pdf">this PDF</a> or watch the video below.</p>
-    <iframe style="margin:0 20px 20px 20px; display:block;" width="640" height="401" src="https://www.powtoon.com/embed/d950KG1KXb9/"></iframe>
+<main class="resumemain">
+    <div style="display:flex; flex-direction:row; flex-wrap:nowrap; justify-content:center; align-items:center;">
+        <div style="display:flex; flex-direction:column; flex-wrap:nowrap; justify-content:center; align-items:center;">
+            <div class="mediumblue">
+                 <h2>PDF</h2>
+                <p>Click to view a <a href="docs/johnsonresume.pdf">PDF version</a> of my most recent resume.</p>
+            </div>
+            <div class="pink">
+                <h2>Video</h2>
+                <p>To view my resume as a video, click the play button on the right.</p>
+            </div>
+        </div>
+        <div style="margin:5px;">
+            <iframe width="640" height="400" src="https://www.powtoon.com/embed/d950KG1KXb9/"></iframe>
+        </div>
     </div>
 </main>
-    <footer>&copy; 2020 Hannah Johnson. All rights reserved.<address> <a style="color:white" href="mailto:hmw998@mail.missouri.edu">hmw998@mail.missouri.edu</a></address></footer>
+<footer>&copy; 2020 Hannah Johnson. All rights reserved.<address> <a href="mailto:hmw998@mail.missouri.edu">hmw998@mail.missouri.edu</a></address></footer>
 </body>
 </html>
