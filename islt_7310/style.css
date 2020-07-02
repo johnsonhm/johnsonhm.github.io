@@ -4,7 +4,7 @@ Use:  To provide style rules for my portfolio website.
 Author:  Hannah Johnson
 School/Term:  University of Missouri-Columbia, Summer 2020
 Developed: June 18, 2020
-Validated:  June 30, 2020; Passed on Chrome browser.
+Validated:  July 2; Passed on Chrome browser.
 ***************************************************************************/
 *{font-family:'Crimson Text', sans-serif;}
 body{
@@ -79,6 +79,12 @@ p{
     padding:0;
     text-align:left;
     vertical-align:middle;}
+.content::first-letter{
+    font-size:170%;
+    font-family:'Unica One',serif;
+    font-weight:bold;}
+.indent::first-line{
+    text-indent:2em;}
 .darkblue{
     background-color:#24305e;
     margin:5px;
