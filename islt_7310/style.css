@@ -4,7 +4,7 @@ Use:  To provide style rules for my portfolio website.
 Author:  Hannah Johnson
 School/Term:  University of Missouri-Columbia, Summer 2020
 Developed: June 18, 2020
-Validated:  July 2; Passed on Chrome browser.
+Validated:  July 16; Passed on Chrome browser.
 ***************************************************************************/
 *{font-family:'Crimson Text', sans-serif;}
 body{
@@ -14,7 +14,8 @@ body{
     width:100%;
     height:auto;}
 main{
-    margin:15px;
+    clear:both;
+    margin:0;
     padding:30px 50px 30px 50px;
     background-color:#a8d0e6;
     display:flex;
@@ -38,10 +39,10 @@ main{
     align-items:center;
     vertical-align:top;}
 header{
-    margin:0;
+    margin:0 15px 0 15px;
     display:flex;
     flex-direction:row;
-    flex-wrap:nowrap;
+    flex-wrap:wrap;
     justify-content:center;
     align-items:center;
     vertical-align:top;}
@@ -49,14 +50,15 @@ h1{
     color:white;
     text-shadow:3px 3px 5px #a8d0e6;
     text-align:center;
-    font-size:300%;
+    font-size:200%;
     font-family:'Unica One', serif;
     background-color:#24305e;
-    margin:0 60px 0 0;
+    margin:15px;
     padding:5px;
     letter-spacing:5px;
     text-transform:uppercase;
-    display:inline-block;}
+    display:block;
+    float:left;}
 h2{
     color:white;
     font-size:170%;
@@ -124,6 +126,8 @@ p{
     height:auto;
     display:block;
     vertical-align:top;}
+#resumevid{
+    margin:5px;}
 .mediumblue{
     background-color:#374785;
     margin:5px;
@@ -156,3 +160,17 @@ a:link, a:active, a:visited{
 a:hover, a:focus{
     text-decoration:underline;
     color:#f76c6c;}
+@media (max-width:640px)
+{   main {padding:10px; margin:0;}
+    .whitelarge {width:100%;}
+    .flexcontainer2{width:80%;}
+    header{display:flex; flex-direction:column; margin:0; padding:0; }
+    h1 {margin:0;}
+    nav {margin:0; padding:0;}
+    nav ul{display:flex; flex-direction:column; margin:0;}}
+@media (max-width:430px)
+{.flexcontainer{flex-wrap:wrap;}}
+@media (max-width:620px)
+    {#resumevid{margin:5px; width:100%; height:auto;}}
+@media (max-width:620px)
+    {#contactform {margin:5px; width:100%; height:auto;}}

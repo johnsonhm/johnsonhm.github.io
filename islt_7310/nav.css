@@ -4,35 +4,36 @@ Use:  To provide style rules for my navigation.
 Author:  Hannah Johnson
 School/Term:  University of Missouri-Columbia, Summer 2020
 Developed: July 1, 2020
-Validated:  July 2, 2020; Passed on Chrome browser.
+Validated:  July 16, 2020; Passed on Chrome browser.
 ***************************************************************************/
 nav {
     background-color:#24305e;
-    display:inline-block;
     right:0;
     top:0;
-    margin:15px;    }
+    margin:15px;}
 nav ul{
     list-style-type:none;
     margin:0;
-    padding:0;}
+    padding:0;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:flex-end;
+    max-width:1200px;}
 nav ul li {
     list-style-type:none;
     margin-top:0;
     margin-left:5px;
     margin-bottom:2px;
-    display:inline-block;
     color:white;
-    border-bottom:3px solid white;
     padding:5px 5px 5px 5px;
-    width:150px;
+    width:auto;
     text-align:center;
-    font-size:20px;
+    font-size:100%;
     font-family:'Unica One',serif;
     letter-spacing:5px;
     text-transform:uppercase;}
 nav>ul li{
-    width:150px;
+    width:auto;
     position:relative;
     text-align:center;
     color:white;}
@@ -46,9 +47,8 @@ nav a:hover, a:focus {
     color: #f76c6c;
     text-decoration:none;
     background-color:#24305e;}
-.active {
+.active a{
     color:#f76c6c;
-    border-bottom:3px solid #f76c6c;
     background-color:#24305e;}
 nav ul>li ul{
     position:absolute;
@@ -56,6 +56,9 @@ nav ul>li ul{
     margin-left:0;
     left:-10px;
     background-color:#24305e;
-    display:none;}
+    display:none;
+    width:110%;}
 nav>ul>li:hover>ul{
     display:block;}
+        
+    
