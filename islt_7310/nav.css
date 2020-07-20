@@ -6,12 +6,12 @@ School/Term:  University of Missouri-Columbia, Summer 2020
 Developed: July 1, 2020
 Validated:  July 16, 2020; Passed on Chrome browser.
 ***************************************************************************/
-nav {
+.mainnav {
     background-color:#24305e;
     right:0;
     top:0;
     margin:15px;}
-nav ul{
+.mainnav ul{
     list-style-type:none;
     margin:0;
     padding:0;
@@ -19,7 +19,7 @@ nav ul{
     flex-wrap:nowrap;
     justify-content:flex-end;
     max-width:1200px;}
-nav ul li {
+.mainnav ul li {
     list-style-type:none;
     margin-top:0;
     margin-left:5px;
@@ -32,25 +32,25 @@ nav ul li {
     font-family:'Unica One',serif;
     letter-spacing:5px;
     text-transform:uppercase;}
-nav>ul li{
+.mainnav>ul li{
     width:auto;
     position:relative;
     text-align:center;
     color:white;}
-nav a:link, a:active, a:visited {
+.mainnav a:link, a:active, a:visited {
     text-decoration:none;
     display:block;
     color:white;
     font-family:'Unica One', serif;
     background-color:#24305e;}
-nav a:hover, a:focus {
+.mainnav a:hover, a:focus {
     color: #f76c6c;
     text-decoration:none;
     background-color:#24305e;}
 .active a{
     color:#f76c6c;
     background-color:#24305e;}
-nav ul>li ul{
+.mainnav ul>li ul{
     position:absolute;
     margin-top:10px;
     margin-left:0;
@@ -58,7 +58,25 @@ nav ul>li ul{
     background-color:#24305e;
     display:none;
     width:110%;}
-nav>ul>li:hover>ul{
+.mainnav>ul>li:hover>ul{
     display:block;}
-        
-    
+#topnav {
+    overflow:hidden;
+    background-color: #24305e;
+    position:relative;}
+#topnav a{
+    color:white;
+    text-decoration:none;
+    display:none;
+    list-style-type:none;
+    margin-top:0;
+    margin-left:5px;
+    margin-bottom:2px;
+    padding:5px 5px 5px 5px;
+    width:auto;
+    text-align:center;
+    font-size:100%;
+    font-family:'Unica One',serif;
+    letter-spacing:5px;
+    text-transform:uppercase;}
+
