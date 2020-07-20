@@ -44,11 +44,11 @@ Validated:  July 16, 2020; Passed on Chrome browser.
     font-family:'Unica One', serif;
     background-color:#24305e;}
 .mainnav a:hover, a:focus {
-    color: #f76c6c;
+    color: #b5d6e8;
     text-decoration:none;
     background-color:#24305e;}
 .active a{
-    color:#f76c6c;
+    color:#b5d6e8;
     background-color:#24305e;}
 .mainnav ul>li ul{
     position:absolute;
