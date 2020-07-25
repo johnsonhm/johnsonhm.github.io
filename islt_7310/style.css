@@ -4,7 +4,7 @@ Use:  To provide style rules for my portfolio website.
 Author:  Hannah Johnson
 School/Term:  University of Missouri-Columbia, Summer 2020
 Developed: June 18, 2020
-Validated:  July 16; Passed on Chrome browser.
+Validated:  July 24; Passed on Chrome browser.
 ***************************************************************************/
 *{font-family:'Crimson Text', sans-serif;}
 body{
@@ -16,7 +16,7 @@ body{
 main{
     clear:both;
     margin:0;
-    padding:30px 50px 30px 50px;
+    padding:50px 50px 50px 50px;
     background-color:white;
     display:flex;
     flex-direction:row;
@@ -37,9 +37,10 @@ main{
     flex-wrap:wrap;
     justify-content:center;
     align-items:center;
-    vertical-align:top;}
+    vertical-align:top;
+    clear:both;}
 header{
-    margin:0 15px 0 15px;
+    margin:15px;
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
@@ -50,7 +51,7 @@ h1{
     color:white;
     text-shadow:3px 3px 5px #747fab;
     text-align:center;
-    font-size:200%;
+    font-size:220%;
     font-family:'Unica One', serif;
     background-color:#24305e;
     margin:15px;
@@ -81,12 +82,8 @@ p{
     padding:0;
     text-align:left;
     vertical-align:middle;}
-.content::first-letter{
-    font-size:170%;
-    font-family:'Unica One',serif;
-    font-weight:bold;}
-.indent::first-line{
-    text-indent:2em;}
+.clear{
+    clear:both;}
 .darkblue{
     background-color:#24305e;
     margin:5px;
@@ -97,7 +94,7 @@ p{
     vertical-align:top;}
 .darkblueul{
     color:white;
-    margin:10px 20px 20px 20px;
+    margin:10px 20px 20px 40px;
     padding:0;
     text-align:left;
     font-family:'Crimson Text', sans-serif;
@@ -145,14 +142,28 @@ blockquote{
     padding:20px;}
 img{
     margin:5px;
-    padding:0;}
+    padding:0;
+    }
 footer{
     font-size:95%;
     color:white;
     text-align:center;
+    justify-content:center;
     font-style:italic;
     background-color:#24305e;
-    padding:5px 0 5px 0;}
+    padding:15px 0 5px 0;}
+footer img{
+    margin:0; 
+    padding:0; 
+    display:inline-block;}
+.zoom {
+    position:absolute;
+    width:0;
+    -webkit-transition:width 0.3s linear 0s;
+    transition:width 0.3s linear 0s;
+    z-index:10;}
+img:hover +.zoom{
+        width:100px;}
 a:link, a:active, a:visited{
     color:#b5d6e8;
     text-decoration:none;}
@@ -160,11 +171,9 @@ a:hover, a:focus{
     text-decoration:underline;}
 .box {
     background-image: url(images/footer-image.png);
-    background-color:inherit;
     background-size:cover;
-    padding:10px;
-    margin:10px;
-    height:100%;}
+    background-position:center;
+    margin:20px;}
 @media (max-width:640px)
 {   main {padding:10px; margin:0;}
     .whitelarge {width:100%;}
@@ -180,14 +189,9 @@ a:hover, a:focus{
 @media (max-width:620px)
     {#contactform {margin:5px; width:100%; height:auto;}}
 @media print {
-    *{background:transparent; !important;
-    color:black;!important;
-    box-shadow:none;!important;
-    text-shadow:none;!important;}
-    nav{display:none;}
-    a[href];;after {
-        content:"["attr(href)"]";
-        color:blue; }
-    @page{
-        margin:.5cm;}}
+    *{background:transparent;
+    color:black;
+    box-shadow:none;
+    text-shadow:none;}
+    nav{display:none;}}
 
