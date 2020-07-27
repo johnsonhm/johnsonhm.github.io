@@ -23,17 +23,20 @@ Validated:  July 24, 2020; Passed on Chrome browser.
 <body>
    <header>
     <h1>HANNAH JOHNSON</h1>     
-    
-       <nav class="mainnav">
+   <nav class="mainnav">
                <ul>
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="resume.html">Resume</a></li>
-                <li><a href="projects.html">Projects</a>    
+                <li><nav class="dropdown">
+                    <button class="dropbtn"><a href="projects.html">Projects</a>
+                    <i class=fa fa-caret-down></i>
+                    </button>
+                   <nav class="dropdown-content">
                     <ul>
                         <li><a href="projects.html#goal1">Goal 1</a></li>
                         <li><a href="projects.html#goal2">Goal 2</a></li>
                         <li><a href="projects.html#goal3">Goal 3</a></li>
-                    </ul>
+                    </ul></nav></nav>
                 </li>
                 <li><a href="reflection.html">Reflection</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -63,52 +66,20 @@ Validated:  July 24, 2020; Passed on Chrome browser.
         <div class="flexcontainer2">
            <div class="flexcontainer">
                <div class="darkblue">
-                   <table><caption style="font-size:50%;color:white;">Bachelor's Degree Information</caption>
-                       <tr>
-                           <thead><th id="hdr_Bachelors">Bachelor's</th></thead>
-                       </tr>
-                       <tbody>
-                              <tr>
-                                   <td headers="hdr_Bachelors">Missouri State <br>University</td>
-                           </tr>
-                              <tr>
-                               <td headers="hdr_Bachelors">Elementary <br>Education</td>
-                           </tr>
-                           <tr>
-                           <td headers="hdr_Bachelors">May 2012</td>
-                           </tr></tbody>
-                   </table> 
-                    <!--<h2>Bachelor's</h2>
+                    <h2>Bachelor's</h2>
                     <ul class="darkblueul">
                         <li>Missouri State University</li>
                         <li>Elementary Education</li>
                         <li>May 2012</li>
-                    </ul>-->
+                    </ul>
                 </div>
                 <div class="mediumblue">
-                   <table><caption caption style="font-size:50%;color:white;">Master's Degree Information</caption>
-                       <tr>
-                           <thead><th id="hdr_Masters">Master's</th></thead>
-                       </tr>
-                       <tbody>
-                              <tr>
-                                   <td headers="hdr_Masters">Univ. of Missouri - Columbia</td>
-                           </tr>
-                              <tr>
-                               <td headers="hdr_Masters">Learning Tech. and Design</td>
-                           </tr>
-                           <tr>
-                           <td headers="hdr_Masters">Dec. 2020 (expected)</td>
-                           </tr></tbody>
-                   </table>
-                    
-                     
-                    <!--<h2>Master's</h2>
+                    <h2>Master's</h2>
                     <ul class="darkblueul">
                         <li>Univ. of Missouri-Columbia</li>
                         <li>Learning Tech. &amp; Design</li>
                         <li>Dec. 2020 (expected)</li>
-                    </ul>-->
+                    </ul>
                 </div>
             </div>
             <div class="flexcontainer">
@@ -122,5 +93,6 @@ Validated:  July 24, 2020; Passed on Chrome browser.
             </div>            
         </div>
     </main>
-<footer class="box">&copy; 2020 Hannah Johnson. All rights reserved.<address><img src="images/email-icon.png" alt="email icon" width="20" ><img class="zoom" src="images/email-icon.png" width="20" alt="email icon"> <a href="mailto:hmw998@mail.missouri.edu">hmw998@mail.missouri.edu</a></address><img src="images/phone-icon.png" width="20" alt="phone icon"><img src="images/phone-icon.png" width="20" class="zoom" alt="phone icon">1+888-888-8888</footer></body>
+<footer class="box">&copy; 2020 Hannah Johnson. All rights reserved.<address><img src="images/email-icon.png" alt="email icon" width="20" ><img class="zoom" src="images/email-icon.png" width="20" alt="email icon"> <a href="mailto:hmw998@mail.missouri.edu">hmw998@mail.missouri.edu</a></address></footer>
+</body>
 </html>

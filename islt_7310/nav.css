@@ -16,6 +16,7 @@ Validated:  July 24, 2020; Passed on Chrome browser.
     margin:0;
     padding:0;
     display:flex;
+    align-items:center;
     flex-wrap:nowrap;
     justify-content:flex-end;
     max-width:1200px;
@@ -53,16 +54,39 @@ Validated:  July 24, 2020; Passed on Chrome browser.
 .active a{
     color:#b5d6e8;
     background-color:#24305e;;}
-.mainnav ul>li ul{
-    position:absolute;
-    margin-top:10px;
-    margin-left:0;
-    left:-10px;
-    background-color:#24305e;
+.dropdown {
+    overflow:hidden;
+    padding:0;}
+.dropdown .dropbtn {
+    border:none;
+    outline:none;
+    color:white;
+    font-family:inherit;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    width:auto;
+    text-align:center;
+    font-size:100%;
+    font-family:'Unica One',serif;
+    letter-spacing:5px;
+    text-transform:uppercase;
+    background-color:#24305e;}
+.dropdown-content{
     display:none;
-    width:110%;
+    position:absolute;
+    background-color:#24305e;
+    min-width:100%;
+    z-index:1;
     font-size:80%;}
-.mainnav>ul>li:hover>ul{
+.dropdown-content a{
+    float:none;
+    color:white;
+    padding:0;
+    text-decoration:none;
+    display:block;
+    text-align:center;}
+.dropdown:hover .dropdown-content{
     display:block;}
-
-
+.dropdown ul{
+    display:block;}

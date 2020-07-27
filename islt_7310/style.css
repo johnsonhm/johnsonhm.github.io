@@ -166,7 +166,8 @@ img:hover +.zoom{
         width:100px;}
 a:link, a:active, a:visited{
     color:#b5d6e8;
-    text-decoration:none;}
+    text-decoration:none;
+    background-color:inherit;}
 a:hover, a:focus{
     text-decoration:underline;}
 .box {

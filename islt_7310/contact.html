@@ -22,23 +22,27 @@ Validated:  July 24, 2020; Passed on Chrome browser.
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 <body>
-   <header>
-    <h1>HANNAH JOHNSON</h1>
-        <nav class="mainnav">
+ <header>
+    <h1>HANNAH JOHNSON</h1>     
+   <nav class="mainnav">
                <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="resume.html">Resume</a></li>
-                <li><a href="projects.html">Projects</a>    
+                <li><nav class="dropdown">
+                    <button class="dropbtn"><a href="projects.html">Projects</a>
+                    <i class=fa fa-caret-down></i>
+                    </button>
+                   <nav class="dropdown-content">
                     <ul>
                         <li><a href="projects.html#goal1">Goal 1</a></li>
                         <li><a href="projects.html#goal2">Goal 2</a></li>
                         <li><a href="projects.html#goal3">Goal 3</a></li>
-                    </ul>
+                    </ul></nav></nav>
                 </li>
                 <li><a href="reflection.html">Reflection</a></li>
                 <li class="active"><a href="contact.html">Contact</a></li>
             </ul>
-        </nav> 
+        </nav>
     </header>
     <main>
         <div class="flexcontainer2">
@@ -49,7 +53,7 @@ Validated:  July 24, 2020; Passed on Chrome browser.
                 </div>
                 <div class="pink">
                     <h2>Blog</h2>
-                    <p>Read and respond to posts on my <a href="https://elawithmrsj.wordpress.com/" target="_blank">blog</a>.</p>
+                    <p>Read and respond to posts on my <a href="https://elawithmrsj.wordpress.com/" target="_blank" style="color:#b5d6e8">blog</a>.</p>
                 </div>
             </div>
         </div>
@@ -57,11 +61,11 @@ Validated:  July 24, 2020; Passed on Chrome browser.
            <div class="flexcontainer">
                <div class="darkblue">
                     <h2>Twitter</h2>
-                   <p>Follow me on my professional <a href="https://twitter.com/elawithmrs_j" target="_blank">Twitter</a> account.</p>
+                   <p>Follow me on my professional <a href="https://twitter.com/elawithmrs_j" style="color:#b5d6e8" target="_blank">Twitter</a> account.</p>
                 </div>
                 <div class="mediumblue">
                     <h2>Facebook</h2>
-                    <p>Follow me on my professional <a href="https://www.facebook.com/elawithmrsj/" target="_blank">Facebook</a> page.</p>
+                    <p>Follow me on my professional <a href="https://www.facebook.com/elawithmrsj/" style="color:#b5d6e8" target="_blank">Facebook</a> page.</p>
                 </div>
             </div>          
         </div>
@@ -81,6 +85,6 @@ Validated:  July 24, 2020; Passed on Chrome browser.
             </form>
         </div>
     </main>
-<footer class="box">&copy; 2020 Hannah Johnson. All rights reserved.<address><img src="images/email-icon.png" alt="email icon" width="20" ><img class="zoom" src="images/email-icon.png" width="20" alt="email icon"> <a href="mailto:hmw998@mail.missouri.edu">hmw998@mail.missouri.edu</a></address><img src="images/phone-icon.png" width="20" alt="phone icon"><img src="images/phone-icon.png" width="20" class="zoom" alt="phone icon">1+888-888-8888</footer>
+<footer class="box">&copy; 2020 Hannah Johnson. All rights reserved.<address><img src="images/email-icon.png" alt="email icon" width="20" ><img class="zoom" src="images/email-icon.png" width="20" alt="email icon"> <a href="mailto:hmw998@mail.missouri.edu">hmw998@mail.missouri.edu</a></address></footer>
 </body>
 </html>
