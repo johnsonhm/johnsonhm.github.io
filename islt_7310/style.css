@@ -4,7 +4,7 @@ Use:  To provide style rules for my portfolio website.
 Author:  Hannah Johnson
 School/Term:  University of Missouri-Columbia, Summer 2020
 Developed: June 18, 2020
-Validated:  July 24; Passed on Chrome browser.
+Validated:  July 27; Passed on Chrome, Opera, Firefox, Edge, and Internet Explorer browser.
 ***************************************************************************/
 *{font-family:'Crimson Text', sans-serif;}
 body{
@@ -156,6 +156,8 @@ footer img{
     margin:0; 
     padding:0; 
     display:inline-block;}
+footer a{
+    color:#b5d6e8;}
 .zoom {
     position:absolute;
     width:0;
@@ -164,10 +166,13 @@ footer img{
     z-index:10;}
 img:hover +.zoom{
         width:100px;}
-a:link, a:active, a:visited{
+a:link, a:visited{
     color:#b5d6e8;
     text-decoration:none;
     background-color:inherit;}
+a:active {
+    background-color:inherit;
+    font-family:inherit;}
 a:hover, a:focus{
     text-decoration:underline;}
 .box {

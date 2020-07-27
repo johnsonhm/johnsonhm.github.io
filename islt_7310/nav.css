@@ -4,7 +4,7 @@ Use:  To provide style rules for my navigation.
 Author:  Hannah Johnson
 School/Term:  University of Missouri-Columbia, Summer 2020
 Developed: July 1, 2020
-Validated:  July 24, 2020; Passed on Chrome browser.
+Validated:  July 27; Passed on Chrome, Opera, Firefox, Edge, and Internet Explorer browser.
 ***************************************************************************/
 .mainnav {
     background-color:#24305e;
@@ -41,7 +41,7 @@ Validated:  July 24, 2020; Passed on Chrome browser.
     text-align:center;
     color:white;
     background-color:#24305e;}
-.mainnav a:link, a:active, a:visited {
+.mainnav a:link, a:visited {
     text-decoration:none;
     display:block;
     color:white;
