@@ -19,6 +19,9 @@ Validated:  July 27, 2020; Passed on Chrome, Opera, Firefox, Edge, and Internet 
     <link href="nav.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="images/favicon-small.png">
+    <link href="src/index.css" rel="stylesheet">
+    <script src="/path/to/cdn/jquery-1.12.4.min.js"></script>
+    <script src="src/jquery.multiTextToggleCollapse.js"></script>
 </head>
 <body>
 <header>
@@ -84,8 +87,24 @@ Validated:  July 27, 2020; Passed on Chrome, Opera, Firefox, Edge, and Internet 
             <p class="content" style="color:black;">This collaboratively created elearning module leads learners through an introductory course on adaptive and personalized learning. <br><br>As the learner begins the course, he or she is introduced to the primary learning objective along with a description of the final assessment and performance rubric. From there, the learner progresses through a series of learning and performance activities that align with secondary, enabling learning objectives.<br><br>These activities were designed and developed by our team to specifically facilitate and support meaningful online learning. Activities included direct instruction (tutorial videos), constructivist learning ( interactive infographic, digital flashcards, and worked examples), collaborative work (discussion board with peer feedback) and performance support (assessments with scaffolding and built-in feedback).<br><br>Based on these activities, we selected and utilized appropriate technologies such as Google Slides, Google Docs, mind-mapping tools such as Bubbl.us, as well as the rapid-authoring tool, Articulate Storyline 360, to house the module. 
 </p>
             <h2 style="color:black;">Reflection</h2>
-            <p style="color:black;">Although this was a team project, I took an active role in almost every aspect from start to finish. I shared the responsibilities of researching the topic as well as designing and developing aligned objectives, activities, and assessments. For the activities and assessments I did not design and develop, I still provided feedback and suggestions.<br><br>I think this project is a strong example of a well-aligned online learning experience. There is clear alignment between the objectives, activities, and assessment. Additionally, there is clear alignment between the meaningful online learning components, the instructional strategies, and the technology tools utilized. <br><br>Making team decisions was hard during this project. When you have five individuals with varying viewpoints, it is often difficult to reach a consensus. I learned that project tasks really fall into two categories. One where the task can be delegated to a team member, completed, and then the team provides feedback. Another where the task really should be completed by the entire team.  It is helpful to do this synchronously. <br><br>If I were to complete this project again, I would put more time and effort into creating the team contract prior to beginning the project. It is so important to clearly define roles and responsibilities. 
-</p>
+               <p style="color:black;">Although this was a team project, I took an active role in almost every aspect from start to finish. I shared the responsibilities of researching the topic as well as designing and developing aligned objectives, activities, and assessments. For the activities and assessments I did not design and develop, I still provided feedback and suggestions.<br><br>I think this project is a strong example of a well-aligned online learning experience. There is clear alignment between the objectives, activities, and assessment. Additionally, there is clear alignment between the meaningful online learning components, the instructional strategies, and the technology tools utilized. <br><br>Making team decisions was hard during this project. When you have five individuals with varying viewpoints, it is often difficult to reach a consensus. I learned that project tasks really fall into two categories. One where the task can be delegated to a team member, completed, and then the team provides feedback. Another where the task<span id="dots1">...</span><span id="more1"> really should be completed by the entire team.  It is helpful to do this synchronously.<br><br>If I were to complete this project again, I would put more time and effort into creating the team contract prior to beginning the project. It is so important to clearly define roles and responsibilities. </span>
+</p><button type="button" id="read1" onclick="read1()">Read more</button>
+       <script type="text/javascript">
+            var i=0;
+            function read1(){
+                if(!i){
+                   document.getElementById("more1").style.display ="inline";
+                    document.getElementById("dots1").style.display ="none";
+                document.getElementById("read1").innerHTML="Read less";
+                i=1;
+                   }
+                else{
+                document.getElementById("more1").style.display ="none";
+                    document.getElementById("dots1").style.display ="inline";
+                document.getElementById("read1").innerHTML="Read more";
+                i=0;
+            }}
+        </script>
         </div>      
     </div>       
     </section>
@@ -126,8 +145,24 @@ Validated:  July 27, 2020; Passed on Chrome, Opera, Firefox, Edge, and Internet 
             <h2 style="color:black;">Needs Assessment</h2>
             <p class="content" style="color:black;">In collaboration with my building principal, I conducted a Needs Assessment to evaluate a current system we have in place at our school to track positive and negative student behaviors. After collecting and analyzing the data, I was then able to develop criteria and recommendations for training on a new and improved system. <br><br>During the process of designing, developing, and implementing my three data collection tools, I used a lot of critical and analytical thinking. First, I had to decide on interview questions that I would ask my principal. I wanted to make sure my questions were effective and efficient and not wasting her precious time. Second, I created a survey to send to the staff members who use this behavior tracking system. I did a pilot test where three of my colleagues took the survey and gave me feedback. I quickly realized I had to adjust some of my questions to make sure I was receiving the answers I needed. Alignment is very important. Finally, I designed and developed an observation guide to use while observing another colleague use the behavior tracking system. Just like the survey, I made revisions and conducted a second observation with the new data collection tool. <br><br>The process of analyzing and evaluating the data produced some recommendations. I presented a few things to my principal. First, I provided her with a rationale to why a new system (or an improved system) is even necessary. There was definitely a need for it based on the data. Second, based on the knowledge, abilities, and skills of the staff, as well as motivational and environmental factors, I was able to provide a list of objectives for training staff on the new system. I also mapped out the prerequisites staff members would need to be successful with the new system. </p>
             <h2 style="color:black;">Reflection</h2>
-            <p style="color:black;">The Needs Assessment I designed and developed was an individual project. However, I worked closely with my building principal since she was the main stakeholder.<br><br>This project definitely helped me sharpen my critical and analytical skills. I would like to think that problem solving is one of my strengths. This project helped me solidify the specific steps and various analyses I learned about throughout the program, as I was able to apply them to relevant situation.<br><br>Unfortunately, the school year ended before any decisions were made for a new system. I would have liked more time to actually practice measuring the learning impact of the training for a new system. Although I have a good grasp of the design and development of the training, I think there is room for me to improve on the implementation and evaluation that comes after the training takes place. 
- </p>
+               <p style="color:black;"><span id="more2">The Needs Assessment I designed and developed was an individual project. However, I worked closely with my building principal since she was the main stakeholder.<br><br>This project definitely helped me sharpen my critical and analytical skills. I would like to think that problem solving is one of my strengths. This project helped me solidify the specific steps and various analyses I learned about throughout the program, as I was able to apply them to relevant situation.<br><br>Unfortunately, the school year ended before any decisions were made for a new system. I would have liked more time to actually practice measuring the learning impact of the training for a new system. Although I have a good grasp of the design and development of the training, I think there is room for me to improve on the implementation and evaluation that comes after the training takes place.</span>  </p>
+               <button type="button" id="read2" onclick="read2()">Read more</button>
+<script type="text/javascript">
+            var i=0;
+            function read2(){
+                if(!i){
+                   document.getElementById("more2").style.display ="inline";
+                    document.getElementById("dots2").style.display ="none";
+                document.getElementById("read2").innerHTML="Read less";
+                i=1;
+                   }
+                else{
+                document.getElementById("more2").style.display ="none";
+                    document.getElementById("dots2").style.display ="inline";
+                document.getElementById("read2").innerHTML="Read more";
+                i=0;
+            }}
+        </script>
         </div>      
     </div>       
     </section>
@@ -168,11 +203,28 @@ Validated:  July 27, 2020; Passed on Chrome, Opera, Firefox, Edge, and Internet 
         </div>
            <div class="whitelarge" style="height:auto; width:580px; margin:0;padding:0;">
             <h2 style="color:black;">Research Project Proposal</h2>
-            <p class="content" style="color:black;">This research project proposal aims to identify best practices of implementing online educational games in the classroom. Specifically, the proposed study intends to explore various implementation factors (frequency, placement, type, element of student choice) and their relationship to student motivation and achievement.<br><br>As the development and usage of online educational games continue to increase, there exists a challenge of best practices for implementation. This study proposes an ethical approach that would provide educators with information to assist their decisions in regards to online educational games. <br><br>As a teacher who uses online educational games, my intention was to discover best practices that could then be shared with other teachers. Between conducting a literature review and reflecting on my own use of online educational games in the classroom , I learned that this is a topic with a lot left to be explored. <br><br>With so many teachers already using online educational games, much of the data already exists. One could argue that there is an ethical obligation to use it for the greater good. 
+            <p class="content" style="color:black;">This research project proposal aims to identify best practices of implementing online educational games in the classroom. Specifically, the proposed study intends to explore various implementation factors (frequency, placement, type, element of student choice) and their relationship to student motivation and achievement.<br>As the development and usage of online educational games continue to increase, there exists a challenge of best practices for implementation. This study proposes an ethical approach that would provide educators with information to assist their decisions in regards to online educational games. <br>As a teacher who uses online educational games, my intention was to discover best practices that could then be shared with other teachers. Between conducting a literature review and reflecting on my own use of online educational games in the classroom , I learned that this is a topic with a lot left to be explored. <br><br>With so many teachers already using online educational games, much of the data already exists. One could argue that there is an ethical obligation to use it for the greater good. 
 </p>
             <h2 style="color:black;">Reflection</h2>
-            <p style="color:black;">This research project proposal was entirely developed individually. Along the way, I was provided with both instructor and peer feedback. I believe one strength of this project is that it is reflective and relevant to teachers today.<br><br>Not having a strong background in research, the process of planning the project itself was difficult. There are many different methods and measures to take into consideration. I learned that submitting this proposal and actually conducting a research project is an involved and lengthy process.<br><br>If I were to do this project again, I would try to simplify and streamline the methods so that it might actually be able to be implemented. As the proposal is now, it is not feasible for me to put into action.<br><br>However, learning about the research project has proven beneficial. I often find myself conducting informal action research within my own classroom. I reflect on a daily basis so that I can improve my own teaching practice. 
-</p>
+            <p style="color:black;">This research project proposal was entirely developed <span id="dots3">...</span><span id="more3">individually. Along the way, I was provided with both instructor and peer feedback. I believe one strength of this project is that it is reflective and relevant to teachers today.<br><br>Not having a strong background in research, the process of planning the project itself was difficult. There are many different methods and measures to take into consideration. I learned that submitting this proposal and actually conducting a research project is an involved and lengthy process.<br><br>If I were to do this project again, I would try to simplify and streamline the methods so that it might actually be able to be implemented. As the proposal is now, it is not feasible for me to put into action.<br><br>However, learning about the research project has proven beneficial. I often find myself conducting informal action research within my own classroom. I reflect on a daily basis so that I can improve my own teaching practice. 
+                </span> </p>
+                <button type="button" id="read3" onclick="read3()">Read more</button>
+               <script type="text/javascript">
+            var i=0;
+            function read3(){
+                if(!i){
+                   document.getElementById("more3").style.display ="inline";
+                    document.getElementById("dots3").style.display ="none";
+                document.getElementById("read3").innerHTML="Read less";
+                i=1;
+                   }
+                else{
+                document.getElementById("more3").style.display ="none";
+                    document.getElementById("dots3").style.display ="inline";
+                document.getElementById("read3").innerHTML="Read more";
+                i=0;
+            }}
+        </script> 
         </div>      
     </div>       
     </section>

@@ -229,6 +229,28 @@ form {
     text-transform:uppercase;
     letter-spacing:2px;
     background-color:#24305e;}
+#breadcrumbs {
+    display:block;
+    justify-content:center;
+    text-align:center;
+    margin:0 0 10px 0;
+    font-size:80%;
+    font-style:italic;}
+#more1, #more2, #more3 {
+    display:none;}
+button {
+    color:white;
+    font-size:100%;
+    font-family:'Unica One',serif;
+    margin:0 20px 20px 20px;
+    padding:5px;
+    font-weight:bold;
+    text-align:left;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    background-color:#24305e;
+    outline:none;
+    border:none;}
 @media (max-width:640px)
 {   main {padding:10px; margin:0;}
     .whitelarge {width:100%;}
@@ -236,7 +258,8 @@ form {
     header{display:flex; flex-direction:column; margin:0; padding:0; }
     h1 {margin:0;}
     nav {margin:0; padding:0;}
-    nav ul{display:flex; flex-direction:column; margin:0;}}
+    nav ul{display:flex; flex-direction:column; margin:0;}
+    #breadcrumbs {display:none;}}
 @media (max-width:430px)
 {.flexcontainer{flex-wrap:wrap;}}
 @media (max-width:620px)
