@@ -181,29 +181,45 @@ a:hover, a:focus{
     background-position:center;
     margin:20px;}
 table
-    {color:white;
+    {color:black;
     font-size:100%;
     margin:10px 20px 20px 20px;
-    padding:0;
-    text-align:left;
-    vertical-align:middle;
-    border:solid white 1px;}
+    padding:10px;
+    text-align:center;
+    vertical-align:top;
+    border-collapse:collapse;
+    background-color:white;
+    width:65%;}
 th{
-    color:white;
+    color:black;
     font-size:170%;
     font-family:'Unica One',serif;
-    margin:0;
-    text-align:left;
+    margin:5px;
+    padding: 10px;
+    text-align:center;
     text-transform:uppercase;
     letter-spacing:2px;
-    background-color:#4156AB;}
+    background-color:white;
+    vertical-align:top;
+    width:30%;}
+td{
+    color:black;
+    font-size:100%;
+    font-family:'Crimson Text', sans-serif;
+    margin:5px;
+    padding:10px;
+    text-align:center;
+    background-color:white;
+    vertical-align:top;}
 tbody{
-    color:white;
+    color:black;
     font-size:100%;
     margin:10px 20px 20px 20px;
-    padding:0;
-    text-align:left;
-    vertical-align:middle;}
+    padding:10px;
+    text-align:center;
+    vertical-align:middle;
+    background-color:white;
+    vertical-align:top;}
 form {
     color:black;
     font-size:100%;
